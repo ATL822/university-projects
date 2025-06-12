@@ -1,0 +1,26 @@
+CSCI-3038
+Final Project
+Andrew Law
+Fractal Renderer User Information
+
+To run this program
+1) Prepare your python environment by installing the necessary libraries
+	- use the command 'pip install pygame'
+2) Run the main.py script in your Python environment
+
+
+Using the program
+1) Upon running the script an interface will launch and prompt you to enter two values
+	- these values will be used to calculate the fractal that is displayed
+2) Submit your values using the 'Submit and Render' button
+	- the script will being creating the image 
+	- when finished the rendered the image to a new display window
+3) The Image display an be closed using the 'Close Display Window' button
+	- After the display window is closed new values can be entered and a new image rendered
+4) To exit the program close the display window and press the 'x' at the top right of the user interface
+
+
+Important notes:
+	- You processor will effect how fast the images render
+	- The number of processors is hard coded to the value of 32 and is labeled as 'num_workers'
+		- to change this, the value at line 69 in the fractal_utils.py script must be updated
